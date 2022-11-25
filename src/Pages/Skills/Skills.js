@@ -1,4 +1,5 @@
 import React from 'react';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const Skills = () => {
     return (
@@ -7,96 +8,78 @@ const Skills = () => {
             Skills
             </h3>
             
-            <div className="row">
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+            <div className='row mt-4'>
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        Photoshop
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        90%
+                    </h5>
                     </div>
+                    <ProgressBar now={90} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+
+
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        jQuery
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        75%
+                    </h5>
                     </div>
+                    <ProgressBar now={75} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        HTML5
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        85%
+                    </h5>
                     </div>
+                    <ProgressBar now={85} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        CSS3
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        80%
+                    </h5>
                     </div>
+                    <ProgressBar now={80} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        Wordpress
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        60%
+                    </h5>
                     </div>
+                    <ProgressBar now={60} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
+
+                <div className='col-md-6 p-3'>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <h5 className='fw-bold'>
+                        PHP
+                    </h5>
+                    <h5 className='fw-bold text-end'>
+                        68%
+                    </h5>
                     </div>
-                </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4 p-3">
-                    <div className="card shadow">
-                        <div className="card-body text-center">
-                            <h5>Skill Name</h5>
-                            <h6>
-                                Skill Level
-                            </h6>
-                        </div>
-                    </div>
+                    <ProgressBar now={68} className="mt-3 bg-dark progress-bar-animated" />
                 </div>
             </div>
         </div>

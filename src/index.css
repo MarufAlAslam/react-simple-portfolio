@@ -5,4 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+}
+*{
+  color: white !important;
+}
+.nav-link.active {
+	background: white;
+	color: black !important;
+}
+.nav-link{
+  margin: 0 15px !important;
+}
+.card-body *{
+  color: black !important;
+}
+.form-control{
+  color: black !important;
+}
+.progress-bar {
+	background: green !important;
 }

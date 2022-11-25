@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 const Home = () => {
     return (
         <div className="container py-5">
-        <h1 className="fw-bold text-dark">
+        <h1 className="fw-bold ">
             John Doe
         </h1>
         <h3 className="mb-4">
